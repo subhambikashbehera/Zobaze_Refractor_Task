@@ -12,7 +12,7 @@ import retrofit2.http.GET
 interface ZobazeApiService {
     // here we are adding all the endpoints of apis
 
-    
+
     @GET("api/v1/employees")
     suspend fun getAllEmployeeDetails():Response<GetAllEmployeeDetails>
 
